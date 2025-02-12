@@ -1,10 +1,10 @@
 
 export class Human {
-    constructor(name, sex) {
+    constructor(name, gender) {
         this.name = name;
-        this.sex = sex;
+        this.gender = gender;
     }
     toString() {
-        return `Human: ${this.name} (${this.sex})\``;
+        return `Human: ${this.name} (${this.gender})`;
     }
 }

@@ -66,15 +66,15 @@ apartment2.addCitizen(person3);
 apartment2.addCitizen(person4);
 
 
-// Create an instance of House with a maximum of 2 flats
-const house = new House(5);
+// Create an instance of House with a maximum of 5 flats
+const house = new House(5); // <--- I can modify it here
 
 // Add instances of Apartment to the instance of House
 house.addFlat(apartment1);
 house.addFlat(apartment2);
 
 
-// Output for verification
+// Output
 console.log(house.toString());
 
 
